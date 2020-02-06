@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "jquery-slim@3.0.0",
+      "destination": "wwwroot/lib/jquery-slim/"
+    }
+  ]
+}
