@@ -12,7 +12,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basics", "Basics\Basics.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityExample", "IdentityExample\IdentityExample.csproj", "{927C49CE-362C-4A5B-A7CC-1E0AFB7AFB1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityEmailVerificationExample", "IdentityEmailVerificationExample\IdentityEmailVerificationExample.csproj", "{AE4DDBC8-CA6A-4AB6-BA6E-7010E6DF592C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityEmailVerificationExample", "IdentityEmailVerificationExample\IdentityEmailVerificationExample.csproj", "{AE4DDBC8-CA6A-4AB6-BA6E-7010E6DF592C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Oauth", "Oauth", "{5E6203CB-243C-4546-A1F0-C8EE2A700681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{C5C1AD4F-9112-4DB1-859A-EDEE20BD5E70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,9 +36,16 @@ Global
 		{AE4DDBC8-CA6A-4AB6-BA6E-7010E6DF592C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE4DDBC8-CA6A-4AB6-BA6E-7010E6DF592C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE4DDBC8-CA6A-4AB6-BA6E-7010E6DF592C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C1AD4F-9112-4DB1-859A-EDEE20BD5E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C1AD4F-9112-4DB1-859A-EDEE20BD5E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C1AD4F-9112-4DB1-859A-EDEE20BD5E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C1AD4F-9112-4DB1-859A-EDEE20BD5E70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5C1AD4F-9112-4DB1-859A-EDEE20BD5E70} = {5E6203CB-243C-4546-A1F0-C8EE2A700681}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6135379D-4B47-49CE-BC43-EEE708228C13}
